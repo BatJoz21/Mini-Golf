@@ -1364,7 +1364,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.03795398, y: -0.7962897, z: 0.05023412, w: 0.6016301}
+  m_LocalRotation: {x: 0.03795399, y: -0.7962897, z: 0.050234135, w: 0.60163015}
   m_LocalPosition: {x: 14.679462, y: 3, z: 3.1690507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2354,7 +2354,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940242896}
-  m_LocalRotation: {x: 0.037953984, y: -0.7962896, z: 0.050234113, w: 0.6016302}
+  m_LocalRotation: {x: 0.037953988, y: -0.7962896, z: 0.050234113, w: 0.6016303}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2558,7 +2558,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020664168}
-  m_LocalRotation: {x: 0.048891056, y: -0.79524416, z: 0.064709924, w: 0.60084033}
+  m_LocalRotation: {x: 0.048891056, y: -0.79524416, z: 0.06470991, w: 0.60084033}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2739,6 +2739,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3655496525308438286, guid: eb68d05428a484442ac80f6b2fe753f9, type: 3}
+      propertyPath: m_text
+      value: 'Level 1
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb68d05428a484442ac80f6b2fe753f9, type: 3}
 --- !u!1001 &5034804927573851597
@@ -2848,6 +2854,10 @@ PrefabInstance:
     - target: {fileID: 7933482335039986262, guid: 61ddf5c9667f9d24eb7f765b18ccb143, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7933482335039986262, guid: 61ddf5c9667f9d24eb7f765b18ccb143, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7933482335039986266, guid: 61ddf5c9667f9d24eb7f765b18ccb143, type: 3}
       propertyPath: m_RootOrder
