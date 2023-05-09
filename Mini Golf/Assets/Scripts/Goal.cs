@@ -12,6 +12,7 @@ public class Goal : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             OnBallGoal.Invoke();
+            Debug.Log("GOAL");
         }
     }
 }
