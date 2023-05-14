@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 5034804926955403122}
   - component: {fileID: 5034804926955403123}
   - component: {fileID: 5034804926955403120}
+  - component: {fileID: 1670758037783532275}
   m_Layer: 5
   m_Name: Finished Canvas
   m_TagString: Untagged
@@ -436,6 +437,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1670758037783532275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5034804926955403121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d26630f8bc9e449a4add64d6ada27d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsCanvas: {fileID: 0}
 --- !u!1 &5034804927225174189
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +571,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5034804927225174190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1670758037783532275}
+        m_TargetAssemblyTypeName: ButtonFunctions, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Main Menu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5034804927257365171
 GameObject:
   m_ObjectHideFlags: 0
