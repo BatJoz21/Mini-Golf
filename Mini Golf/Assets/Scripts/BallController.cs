@@ -27,6 +27,7 @@ public class BallController : MonoBehaviour, IPointerDownHandler
     public int ShootCount { get => shootCount; }
 
     public UnityEvent<int> onBallShooted = new UnityEvent<int>();
+    public UnityEvent onBallHit = new UnityEvent();
 
     private void Update()
     {      
@@ -88,6 +89,7 @@ public class BallController : MonoBehaviour, IPointerDownHandler
         {
             shoot = false;
             AddForce(forceDirection * force * forceFactor, ForceMode.Impulse);
+            onBallHit.Invoke();
             shootCount += 1;
             onBallShooted.Invoke(shootCount);
         }
